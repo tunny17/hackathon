@@ -3,8 +3,8 @@ import activeIcon from '/nav-active-icon.svg';
 
 const Navigation = () => {
   return (
-    <section className='bg-[#F7F8FA] w-[5%] flex flex-col items-center py-4 border-r-[1px] border-black relative'>
-      <img src='/Logo.svg' alt='logo' className='w-[50%] mb-5' />
+    <section className='bg-[#F7F8FA] w-[5%] flex flex-col items-center py-6 border-r-[1px] border-[#E5EAEF] relative'>
+      <img src='/Logo.svg' alt='logo' className='w-[55%] mb-5' />
       <nav className='w-full'>
         <ul className='flex flex-col justify-center gap-y-8 w-full'>
           <li className='flex justify-center items-center cursor-pointer relative'>
