@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navigation, Header } from './components';
+import { Navigation, Header, SalesTrend, TotalOrder } from './components';
 
 const App = () => {
   return (
@@ -7,6 +7,14 @@ const App = () => {
       <Navigation />
       <div className='bg-[#FAFAFA] w-full'>
         <Header />
+
+        {/* first section of the body */}
+        <section className='p-5'>
+          <div className='flex justify-between'>
+            <SalesTrend />
+            <TotalOrder />
+          </div>
+        </section>
       </div>
     </section>
   );
