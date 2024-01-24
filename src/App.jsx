@@ -1,5 +1,12 @@
 import React from 'react';
-import { Navigation, Header, SalesTrend, TotalOrder } from './components';
+import {
+  Navigation,
+  Header,
+  SalesTrend,
+  TotalOrder,
+  LastOrders,
+  TopPlatform,
+} from './components';
 
 const App = () => {
   return (
@@ -10,9 +17,13 @@ const App = () => {
 
         {/* first section of the body */}
         <section className='p-5'>
-          <div className='flex justify-between'>
+          <div className='flex justify-between flex-wrap w-full'>
             <SalesTrend />
             <TotalOrder />
+          </div>
+          <div className='flex justify-between flex-wrap w-full mt-5'>
+            <LastOrders />
+            <TopPlatform />
           </div>
         </section>
       </div>
