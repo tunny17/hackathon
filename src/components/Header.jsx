@@ -2,8 +2,8 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <section className='h-[10%] flex flex-row items-center px-5 border-b-[1px] border-{#E5EAEF}'>
-      <div className='flex flex-row justify-between items-center w-[60%] mr-10'>
+    <section className='h-[10%] flex flex-row items-center px-5 py-2.5 border-b-[1px] border-{#E5EAEF} fixed top-0 w-full bg-[#FAFAFA]'>
+      <div className='flex flex-row justify-between items-center w-[57%] mr-10'>
         <h1 className='font-bold text-xl'>Dashboard</h1>
         <input
           type='search'
@@ -18,10 +18,10 @@ const Header = () => {
           <img src='/public/calendar-icon.svg' alt='' />
           <h3 className='text-xs font-medium'>November 15, 2023</h3>
         </div>
-        <button className='border-[1px] border-[#DADDDD] px-2 py-2 rounded-full'>
+        <button className='border bg-white border-[#DADDDD] px-2 py-2 rounded-full'>
           <img src='/public/notification-icon.svg' alt='' />
         </button>
-        <button className='flex items-center border-[1px] border-[#DADDDD] gap-3 px-2 py-1 rounded-full'>
+        <button className='flex items-center border bg-white border-[#DADDDD] gap-3 px-2 py-1 rounded-full'>
           <img src='/public/user-icon.png' alt='' />
           <div className='flex flex-col items-center justify-center'>
             <h2 className='text-sm font-medium'>Justin Bergson</h2>

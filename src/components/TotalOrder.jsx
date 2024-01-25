@@ -2,8 +2,8 @@ import React from 'react';
 
 const TotalOrder = () => {
   return (
-    <section className='w-[38.5%] flex justify-between gap-y-5 flex-wrap'>
-      <div className='border-[1px] flex flex-col justify-between rounded-2xl p-4 hover:scale-[1.07] transition-all cursor-pointer'>
+    <section className='w-full lg:w-[38.5%] min-w-[320px] flex justify-between lg:gap-y-5 lg:gap-x-0 gap-x-5 lg:flex-wrap overflow-x-auto'>
+      <div className='bg-white border min-w-[240px] flex flex-col justify-between rounded-2xl p-4 hover:scale-[1.07] transition-all cursor-pointer'>
         <div className='flex justify-between gap-16'>
           <img
             src='/public/total-order-icon.svg'
@@ -26,7 +26,7 @@ const TotalOrder = () => {
           <p className='text-[10px]'>vs. previous month</p>
         </div>
       </div>
-      <div className='border-[1px] flex flex-col justify-between rounded-2xl p-4 hover:scale-[1.07] transition-all cursor-pointer'>
+      <div className='bg-white border min-w-[240px] flex flex-col justify-between rounded-2xl p-4 hover:scale-[1.07] transition-all cursor-pointer'>
         <div className='flex justify-between gap-16'>
           <img
             src='/public/total-refund-icon.svg'
@@ -49,7 +49,7 @@ const TotalOrder = () => {
           <p className='text-[10px]'>vs. previous month</p>
         </div>
       </div>
-      <div className='border-[1px] flex flex-col justify-between rounded-2xl p-4 hover:scale-[1.07] transition-all cursor-pointer'>
+      <div className='bg-white border min-w-[240px] flex flex-col justify-between rounded-2xl p-4 hover:scale-[1.07] transition-all cursor-pointer'>
         <div className='flex justify-between gap-16'>
           <img
             src='/public/average-sales-icon.svg'
@@ -72,7 +72,7 @@ const TotalOrder = () => {
           <p className='text-[10px]'>vs. previous month</p>
         </div>
       </div>
-      <div className='border-[1px] flex flex-col justify-between rounded-2xl p-4 hover:scale-[1.07] transition-all cursor-pointer'>
+      <div className='bg-white border min-w-[240px] flex flex-col justify-between rounded-2xl p-4 hover:scale-[1.07] transition-all cursor-pointer'>
         <div className='flex justify-between gap-16'>
           <img
             src='/public/total-income-icon.svg'

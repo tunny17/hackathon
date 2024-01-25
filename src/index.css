@@ -33,3 +33,11 @@ body::-webkit-scrollbar {
 .red-background {
   background: rgba(237, 84, 78, 0.12);
 }
+
+.slider .MuiSlider-thumb {
+  display: none;
+}
+/* --sets the default color of the slider */
+.MuiSlider-rail {
+  color: #F5F5F5;
+}

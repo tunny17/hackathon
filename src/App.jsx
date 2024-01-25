@@ -10,21 +10,15 @@ import {
 
 const App = () => {
   return (
-    <section className='w-full h-[120vh] flex flex-row'>
+    <section className='w-full'>
       <Navigation />
-      <div className='bg-[#FAFAFA] w-full'>
+      <div className='bg-[#FAFAFA] ml-0 lg:ml-[5%] h-full'>
         <Header />
-
-        {/* first section of the body */}
-        <section className='p-5'>
-          <div className='flex justify-between flex-wrap w-full'>
-            <SalesTrend />
-            <TotalOrder />
-          </div>
-          <div className='flex justify-between flex-wrap w-full mt-5'>
-            <LastOrders />
-            <TopPlatform />
-          </div>
+        <section className='p-5 mt-[5%] flex justify-center lg:justify-between flex-wrap w-full gap-y-5'>
+          <SalesTrend />
+          <TotalOrder />
+          <LastOrders />
+          <TopPlatform />
         </section>
       </div>
     </section>
