@@ -1,11 +1,7 @@
 import React from 'react';
-// import Chart from 'react-apexcharts';
-import { Chart as ChartJS } from 'chart.js/auto';
 import { Bar } from 'react-chartjs-2';
 
 const SalesTrend = () => {
-  const hover =
-    'linear-gradient(180deg, #34CAA5 0%, rgba(52, 202, 165, 0.00) 100%)';
   const data = {
     labels: [
       'Jan',
@@ -60,11 +56,9 @@ const SalesTrend = () => {
   };
 
   return (
-    <section className='min-w-[320px] w-full lg:max-w-[710px] border-2 rounded-2xl bg-white border-[#EDF2F7] py-3 px-4'>
+    <section className='min-w-[320px] w-full lg:max-w-[710px] border-2 rounded-2xl bg-white dark:bg-black dark:border-0 dark:text-white border-[#EDF2F7] py-3 px-4'>
       <div className='flex justify-between items-center'>
-        <h1 className='font-bold text-sm lg:text-lg dark:text-white'>
-          Sales Trends
-        </h1>
+        <h1 className='font-bold text-sm lg:text-lg'>Sales Trends</h1>
         <div className='flex items-center gap-4'>
           <p className='text-[10px] lg:text-sm font-semibold'>Sort by:</p>
           <button className='text-[9px] lg:text-xs flex gap-x-2 rounded-full items-center border px-3 py-1.5'>
