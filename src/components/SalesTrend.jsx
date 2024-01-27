@@ -26,7 +26,7 @@ const SalesTrend = () => {
       {
         data: [7, 21, 3, 27, 9, 45, 9, 23, 32, 4, 30, 26],
         backgroundColor: 'rgba(52, 202, 165, 0.10)',
-        borderRadius: 50,
+        borderRadius: 100,
         hoverBackgroundColor: '#34CAA5',
       },
     ],
@@ -37,24 +37,36 @@ const SalesTrend = () => {
       tooltip: {
         callbacks: {
           label: function (context) {
-            // Format the tooltip label to show only the data array
-            const label = context.dataset.label || '';
             const value = context.parsed.y || 0;
             return `${value}`;
           },
         },
       },
+      legend: {
+        display: false, // Set this to false to hide the legend
+      },
     },
     scales: {
       y: {
+        ticks: {
+          callback: function (value) {
+            return `${value.toFixed(3)}`;
+          },
+          stepSize: 5,
+          maxTicksLimit: 7,
+        },
         border: {
           dash: [6, 6],
+          color: 'transparent',
         },
       },
       x: {
+        grid: {
+          display: false,
+        },
         border: {
-          // dash: [6, 6],
-          // color: 'transparent',
+          dash: [6, 6],
+          color: 'transparent',
         },
       },
     },
@@ -62,7 +74,7 @@ const SalesTrend = () => {
 
   return (
     <section className='min-w-[320px] w-full lg:max-w-[710px] border-2 rounded-2xl bg-white dark:bg-black dark:text-white dark:border-0 border-[#EDF2F7] py-3 px-4'>
-      <div className='flex justify-between items-center'>
+      <div className='flex justify-between items-center mb-5'>
         <h1 className='font-bold text-sm lg:text-lg'>Sales Trends</h1>
         <div className='flex items-center gap-4'>
           <p className='text-[10px] lg:text-sm font-semibold'>Sort by:</p>

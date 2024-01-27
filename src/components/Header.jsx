@@ -31,7 +31,7 @@ const Header = ({}) => {
               name=''
               id=''
               placeholder='Search...'
-              className='search-input hidden w-full lg:block border bg-white dark:text-black border-[#DADDDD] rounded-full outline-none px-9 pt-1 pb-2 placeholder:text-[13px]'
+              className='search-input hidden w-full lg:block border bg-white dark:text-black dark:bg-black border-[#DADDDD] rounded-full outline-none px-9 pt-1 pb-2 placeholder:text-[13px]'
             />
             <img
               src='/search-icon.svg'
