@@ -86,13 +86,13 @@ const Header = ({}) => {
             </svg>
           </button>
           <button className='flex items-center border dark:bg-black dark:text-white bg-white border-[#DADDDD] gap-2 px-1 lg:px-2 py-1 rounded-full'>
-            <img src='/public/user-icon.png' alt='' className='w-7 lg:w-9' />
+            <img src='/user-icon.png' alt='' className='w-7 lg:w-9' />
             <div className='hidden lg:flex flex-col items-center justify-center'>
               <h2 className='text-xs font-medium'>Justin Bergson</h2>
               <p className='text-xs text-[#787486] '>Justin@gmail.com</p>
             </div>
             <img
-              src='/public/arrow-down-icon.svg'
+              src='/arrow-down-icon.svg'
               alt=''
               className='hidden lg:block w-4'
             />

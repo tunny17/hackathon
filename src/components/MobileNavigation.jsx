@@ -39,19 +39,19 @@ const MobileNavigation = () => {
             </svg>
           </li>
           <li className='flex justify-center items-center cursor-pointer'>
-            <img src='/public/nav-icon-2.svg' alt='' className='w-[56%]' />
+            <img src='/nav-icon-2.svg' alt='' className='w-[56%]' />
           </li>
           <li className='flex justify-center items-center cursor-pointer'>
-            <img src='/public/nav-icon-3.svg' alt='' className='w-[56%]' />
+            <img src='/nav-icon-3.svg' alt='' className='w-[56%]' />
           </li>
           <li className='flex justify-center items-center cursor-pointer'>
-            <img src='/public/nav-icon-4.svg' alt='' className='w-[56%]' />
+            <img src='/nav-icon-4.svg' alt='' className='w-[56%]' />
           </li>
           <li className='flex justify-center items-center cursor-pointer'>
-            <img src='/public/nav-icon-5.svg' alt='' className='w-[56%]' />
+            <img src='/nav-icon-5.svg' alt='' className='w-[56%]' />
           </li>
           <li className='flex justify-center items-center cursor-pointer'>
-            <img src='/public/nav-icon-6.svg' alt='' className='w-[56%]' />
+            <img src='/nav-icon-6.svg' alt='' className='w-[56%]' />
           </li>
         </ul>
       </nav>
@@ -60,12 +60,12 @@ const MobileNavigation = () => {
         <button
           onClick={() => handleLightMode()}
           className='flex justify-center items-center rounded-full scale-[0.7]'>
-          <img src='/public/light-mode-icon.svg' alt='' className='' />
+          <img src=' /light-mode-icon.svg' alt='' className='' />
         </button>
         <button
           onClick={() => handleDarkMode()}
           className='flex justify-center items-center rounded-full scale-[0.7]'>
-          <img src='/public/dark-mode-icon.svg' alt='' className='' />
+          <img src=' /dark-mode-icon.svg' alt='' className='' />
         </button>
       </div>
     </div>

@@ -38,7 +38,11 @@ const LastOrders = () => {
             <tr className='text-[10px] lg:text-sm text-left font-medium h-14 border-t-2'>
               <td>
                 <div className='flex items-center gap-3 pl-2'>
-                  <img src={order.userPicture} alt='' className='w-7' />
+                  <img
+                    src={`/public${order.userPicture}`}
+                    alt=''
+                    className='w-7'
+                  />
                   {order.name}
                 </div>
               </td>
@@ -49,7 +53,7 @@ const LastOrders = () => {
               <td className={`text-[${order.statusColor}]`}>{order.status}</td>
               <td className='cursor-pointer'>
                 <div className='flex items-center gap-2 text-xs'>
-                  <img src='/public/view-icon.svg' alt='' />
+                  <img src='/view-icon.svg' alt='' />
                   View
                 </div>
               </td>
