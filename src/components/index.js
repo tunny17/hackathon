@@ -4,3 +4,4 @@ export { default as SalesTrend } from './SalesTrend';
 export { default as TotalOrder } from './TotalOrder';
 export { default as LastOrders } from './LastOrders';
 export { default as TopPlatform } from './TopPlatform';
+export { default as MobileNavigation } from './MobileNavigation';

@@ -1,0 +1,123 @@
+const totalOrders = [
+  {
+    img: '/total-order-icon.svg',
+    chartImg: '/green-chart.svg',
+    title: 'Total Order',
+    price: '350',
+    percentage: '23.5',
+    miniChartColor: '#34CAA5',
+    miniChartBackgroundColor: 'green-background',
+    miniChartImg: '/green-chart-arrow.svg',
+  },
+  {
+    img: '/total-refund-icon.svg',
+    chartImg: '/red-chart.svg',
+    title: 'Total Refund',
+    price: '270',
+    percentage: '23.5',
+    miniChartColor: '#ED544E',
+    miniChartBackgroundColor: 'red-background',
+    miniChartImg: '/red-chart-arrow.svg',
+  },
+  {
+    img: '/average-sales-icon.svg',
+    chartImg: '/red-chart.svg',
+    title: 'Average Sales',
+    price: '1567',
+    percentage: '23.5',
+    miniChartColor: '#ED544E',
+    miniChartBackgroundColor: 'red-background',
+    miniChartImg: '/red-chart-arrow.svg',
+  },
+  {
+    img: '/total-income-icon.svg',
+    chartImg: '/green-chart.svg',
+    title: 'Total Income',
+    price: '$350.000',
+    percentage: '23.5',
+    miniChartColor: '#34CAA5',
+    miniChartBackgroundColor: 'green-background',
+    miniChartImg: '/green-chart-arrow.svg',
+  },
+];
+
+const lastOrders = [
+  {
+    userPicture: '/last-orders-user-1.png',
+    name: 'Marcus Bergson',
+    date: ' Nov 15, 2023',
+    amount: '$80,000',
+    status: 'Paid',
+    statusColor: '#34CAA5',
+    invoice: 'View',
+  },
+  {
+    userPicture: '/last-orders-user-2.png',
+    name: 'Jaydon Vaccaro',
+    date: ' Nov 15, 2023',
+    amount: '$150,000',
+    status: 'Refund',
+    statusColor: '#ED544E',
+    invoice: 'View',
+  },
+  {
+    userPicture: '/last-orders-user-3.png',
+    name: 'Corey Schleifer',
+    date: ' Nov 14, 2023',
+    amount: '$87,000',
+    status: 'Paid',
+    statusColor: '#34CAA5',
+    invoice: 'View',
+  },
+  {
+    userPicture: '/last-orders-user-4.png',
+    name: 'Cooper Press',
+    date: ' Nov 14, 2023',
+    amount: '$100,000',
+    status: 'Refund',
+    statusColor: '#ED544E',
+    invoice: 'View',
+  },
+  {
+    userPicture: '/last-orders-user-5.png',
+    name: 'Phillip Lubin',
+    date: ' Nov 13, 2023',
+    amount: '$78,000',
+    status: 'Paid',
+    statusColor: '#34CAA5',
+    invoice: 'View',
+  },
+];
+
+const topPlatform = [
+  {
+    name: 'Book Bazaar',
+    value: 50,
+    color: '#6160DC',
+    amount: '$2,500,000',
+    percentage: '+15%',
+  },
+  {
+    name: 'Artisan Aisle',
+    value: 40,
+    color: '#54C5EB',
+    amount: '$1,800,000',
+    percentage: '+10%',
+  },
+  {
+    name: 'Toy Troop',
+    value: 30,
+    color: '#FFB74A',
+    amount: '$1,200,000',
+    percentage: '+8%',
+  },
+  {
+    name: 'XStore',
+    value: 27,
+    color: '#FF4A55',
+    amount: '$600,000',
+    percentage: '+15%',
+  },
+];
+
+export { totalOrders, lastOrders, topPlatform };

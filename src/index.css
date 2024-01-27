@@ -13,17 +13,14 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.search-input {
-  background: url("/public/search-icon.svg") ;
-  background-position: 15px 12px; 
-  background-repeat: no-repeat;
-  background-size: 5.5%;
 }
 
 .green-background {
@@ -41,3 +38,4 @@ body::-webkit-scrollbar {
 .MuiSlider-rail {
   color: #F5F5F5;
 }
+
